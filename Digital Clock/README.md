@@ -3,6 +3,6 @@ Basic Responsive Digital Clock built using HTML , CSS and JavaScript.
 
 Screenshots
 ========
-![Screenshot (183)](https://user-images.githubusercontent.com/67383719/235299436-43815b06-4c48-46ec-9e93-d7d3c10c84a7.png)
+![Screenshot (183)](https://github.com/mateen27/javascript-projects/assets/136830885/4e83909b-0972-40a7-8132-72f688274e2b)
 
-![Screenshot (184)](https://user-images.githubusercontent.com/67383719/235299438-c60ad265-65cf-4889-8dd1-75ae83c5e6fd.png)
+![Screenshot (184)](https://github.com/mateen27/javascript-projects/assets/136830885/8cd300ea-7afa-4420-80ce-ac04be4fa276)
