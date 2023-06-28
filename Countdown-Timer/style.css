@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("./image/snow.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center center;
+    margin: 0;
+}
+
+.countdown-container { 
+    display: flex; /* for making hours min and sec in a row*/
+}
+
+h1 { 
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem; /* top-bottom right-left*/
+}
+
+.countdown-el {
+    text-align: center; /* for making the text of days hour and min in center*/
+}
+
+.countdown-el {
+    font-size: 1.3rem;
+}
