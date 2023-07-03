@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the Webpage -->
+    <title>Internet Connection Detector</title>
+
+    <!-- Linked Css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section id = "main">
+        <div class="container">
+            <img id="image"/>
+            <h1>Internet Connection Status</h1>
+            <p id="status" class="status">Pending</p>
+        </div>
+    </section>
+    
+
+    <script>
+        // Problem here is that it shows online at that moment also when the device is not able to connect to the internet!!
+
+        window.addEventListener("load" , (event)=>{
+           const statusDisplay = document.getElementById('status');
+           statusDisplay.textContent = navigator.onLine ? 'Online' : 'Offline'
+        })
+
+        window.addEventListener("Offline" , (event)=>{
+           const statusDisplay = document.getElementById('status');
+           statusDisplay.textContent = 'Offline'
+        })
+
+        window.addEventListener("Online" , (event)=>{
+           const statusDisplay = document.getElementById('status');
+           statusDisplay.textContent = 'Online'
+        })
+    </script>
+</body>
+</html>
