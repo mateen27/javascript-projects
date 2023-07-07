@@ -19,3 +19,6 @@ Modify the HTML structure and CSS styles as per your requirements.
 Update the script.js file to customize the API endpoint and data handling based on your needs.
 
 ## Screenshot
+![Screenshot (211)](https://github.com/mateen27/javascript-projects/assets/136830885/521a0208-ea8e-4377-90bd-0cae63804b2e)
+
+![Screenshot (212)](https://github.com/mateen27/javascript-projects/assets/136830885/e4e06809-3629-4f10-a6d6-bdee6fabddc0)
